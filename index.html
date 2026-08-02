@@ -715,13 +715,18 @@
     <img class="slide active" src="freezer-box.jpg" alt="Dead Body Freezer Box Rental Hyderabad">
     <img class="slide" src="last-journey.jpg" alt="Last Journey Vehicle Hyderabad">
 </div>
-                <h3 style="color: var(--gold); font-size: 1.1rem; margin-bottom: 5px;">Refrigerated Mortuary Cabinet</h3>
-                <p style="font-size: 0.85rem; color: var(--text-muted);">Stainless steel glass-view freezer box available for immediate home or hospital setup.</p>
                 
+<h3 id="heroTitle" style="color: var(--gold); font-size:1.1rem; margin-bottom:5px;">
+Dead Body Freezer Box Rental
+</h3>
+
+<p id="heroDesc" style="font-size:0.85rem; color:var(--text-muted);">
+24/7 Dead Body Freezer Box Rental service with hygienic stainless steel freezer box for home, hospital and funeral support across Hyderabad & Telangana.
+</p>
                 <!-- Secured Image Upload Option -->
             
             </div>
-        </div>
+      
     </section>
 
     <!-- About Section -->
@@ -1064,17 +1069,40 @@
 
         // 1. Change Full Hero Background (Only with Passcode)
  
-    // Hero Image Slider
+// Hero Image Slider
 const slides = document.querySelectorAll('.hero-slider .slide');
 
-if (slides.length > 0) {
-    let currentSlide = 0;
+const heroTitle = document.getElementById("heroTitle");
+const heroDesc = document.getElementById("heroDesc");
 
-    setInterval(() => {
-        slides[currentSlide].classList.remove('active');
-        currentSlide = (currentSlide + 1) % slides.length;
-        slides[currentSlide].classList.add('active');
-    }, 3000);
+const slideContent = [
+{
+title: "Dead Body Freezer Box Rental",
+desc: "24/7 Dead Body Freezer Box Rental service with hygienic stainless steel freezer box for home, hospital and funeral support across Hyderabad & Telangana."
+},
+{
+title: "Last Journey Vehicle",
+desc: "24/7 dignified Last Journey Vehicle service for safe and respectful transportation across Hyderabad & Telangana."
+}
+];
+
+if (slides.length > 0) {
+
+let currentSlide = 0;
+
+setInterval(() => {
+
+slides[currentSlide].classList.remove("active");
+
+currentSlide = (currentSlide + 1) % slides.length;
+
+slides[currentSlide].classList.add("active");
+
+heroTitle.innerText = slideContent[currentSlide].title;
+heroDesc.innerText = slideContent[currentSlide].desc;
+
+}, 3000);
+
 }
     </script>
 </body>
