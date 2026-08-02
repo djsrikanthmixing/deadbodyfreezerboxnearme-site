@@ -345,22 +345,7 @@
         }
 
         /* Admin Controls for Custom Uploads */
-        .admin-controls {
-            margin-top: 15px;
-            padding: 10px;
-            background: rgba(8, 21, 38, 0.8);
-            border: 1px dashed var(--gold);
-            border-radius: 10px;
-            font-size: 0.8rem;
-        }
-
-        .admin-controls p {
-            color: var(--gold);
-            font-size: 0.75rem;
-            margin-bottom: 8px;
-            font-weight: 600;
-        }
-
+        
         .upload-btn-wrapper {
             position: relative;
             display: inline-block;
@@ -734,17 +719,7 @@
                 <p style="font-size: 0.85rem; color: var(--text-muted);">Stainless steel glass-view freezer box available for immediate home or hospital setup.</p>
                 
                 <!-- Secured Image Upload Option -->
-                <div class="admin-controls">
-                    <p><i class="fa-solid fa-lock"></i> Owner Controls</p>
-                    <div class="upload-btn-wrapper">
-                        <button class="upload-btn"><i class="fa-solid fa-image"></i> Change BG</button>
-                        <input type="file" accept="image/*" onchange="changeHeroBackground(event)">
-                    </div>
-                    <div class="upload-btn-wrapper">
-                        <button class="upload-btn"><i class="fa-solid fa-box"></i> Change Card Img</button>
-                        <input type="file" accept="image/*" onchange="changeCardImage(event)">
-                    </div>
-                </div>
+            
             </div>
         </div>
     </section>
@@ -1088,48 +1063,7 @@
         });
 
         // 1. Change Full Hero Background (Only with Passcode)
-        function changeHeroBackground(event) {
-            const pass = prompt("Enter Owner Security Passcode to change background:");
-            if (pass !== OWNER_PASSCODE) {
-                alert("Incorrect passcode! Only the website owner can upload images.");
-                event.target.value = "";
-                return;
-            }
-
-            const file = event.target.files[0];
-            if (file) {
-                const reader = new FileReader();
-                reader.onload = function(e) {
-                    const imgUrl = e.target.result;
-                    document.getElementById('home').style.backgroundImage = `linear-gradient(180deg, rgba(8, 21, 38, 0.85) 0%, rgba(8, 21, 38, 0.98) 100%), url(${imgUrl})`;
-                    localStorage.setItem('custom_hero_bg', imgUrl);
-                    alert("Hero Background updated successfully!");
-                };
-                reader.readAsDataURL(file);
-            }
-        }
-
-        // 2. Change Hero Card Right Image (Only with Passcode)
-        function changeCardImage(event) {
-            const pass = prompt("Enter Owner Security Passcode to change card image:");
-            if (pass !== OWNER_PASSCODE) {
-                alert("Incorrect passcode! Only the website owner can upload images.");
-                event.target.value = "";
-                return;
-            }
-
-            const file = event.target.files[0];
-            if (file) {
-                const reader = new FileReader();
-                reader.onload = function(e) {
-                    const imgUrl = e.target.result;
-                    document.getElementById('cardImage').src = imgUrl;
-                    localStorage.setItem('custom_card_img', imgUrl);
-                    alert("Card Image updated successfully!");
-                };
-                reader.readAsDataURL(file);
-            }
-        }
+ 
     // Hero Image Slider
 const slides = document.querySelectorAll('.hero-slider .slide');
 
