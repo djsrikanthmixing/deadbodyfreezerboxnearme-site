@@ -229,7 +229,7 @@
         .hero {
             position: relative;
             padding: 140px 0 100px;
-            background-image: linear-gradient(180deg, rgba(8, 21, 38, 0.85) 0%, rgba(8, 21, 38, 0.98) 100%), url('hero-bg.png');
+         background-image: linear-gradient(180deg, rgba(8,21,38,.85) 0%, rgba(8,21,38,.98) 100%), url('background.jpg');
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -243,7 +243,28 @@
             gap: 40px;
             align-items: center;
         }
+.hero-slider{
+    position:relative;
+    width:100%;
+    height:320px;
+    overflow:hidden;
+    border-radius:20px;
+}
 
+.hero-slider .slide{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    opacity:0;
+    transition:opacity 1s ease-in-out;
+}
+
+.hero-slider .slide.active{
+    opacity:1;
+}
         .badge {
             display: inline-flex;
             align-items: center;
@@ -705,7 +726,10 @@
             </div>
             
             <div class="hero-card-right" data-aos="fade-left" data-aos-duration="1000">
-                <img id="cardImage" src="ambulance.png" alt="Dead Body Transport Ambulance and Freezer Box" loading="lazy">
+          <div class="hero-slider">
+    <img class="slide active" src="freezer-box.jpg" alt="Dead Body Freezer Box Rental Hyderabad">
+    <img class="slide" src="last-journey.jpg" alt="Last Journey Vehicle Hyderabad">
+</div>
                 <h3 style="color: var(--gold); font-size: 1.1rem; margin-bottom: 5px;">Refrigerated Mortuary Cabinet</h3>
                 <p style="font-size: 0.85rem; color: var(--text-muted);">Stainless steel glass-view freezer box available for immediate home or hospital setup.</p>
                 
@@ -1106,6 +1130,18 @@
                 reader.readAsDataURL(file);
             }
         }
+    // Hero Image Slider
+const slides = document.querySelectorAll('.hero-slider .slide');
+
+if (slides.length > 0) {
+    let currentSlide = 0;
+
+    setInterval(() => {
+        slides[currentSlide].classList.remove('active');
+        currentSlide = (currentSlide + 1) % slides.length;
+        slides[currentSlide].classList.add('active');
+    }, 3000);
+}
     </script>
 </body>
 </html>
