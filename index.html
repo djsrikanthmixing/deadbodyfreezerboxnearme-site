@@ -433,6 +433,19 @@
     background-position: center;
     background-repeat: no-repeat;
     min-height: 100vh;
+      /* Mobile Background */
+@media (max-width: 768px) {
+    .hero {
+        background:
+            linear-gradient(rgba(4,10,18,0.75), rgba(4,10,18,0.75)),
+            url("background-mobile.jpg");
+
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 70vh;
+    }
+}
 }
 
     .hero-grid {
