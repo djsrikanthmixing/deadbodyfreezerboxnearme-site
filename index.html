@@ -1082,9 +1082,11 @@ We provide 24/7 Dead Body Freezer Box Rent in Hyderabad and nearby locations. Ou
             if (savedBG) {
                 document.getElementById('home').style.backgroundImage = `linear-gradient(180deg, rgba(8, 21, 38, 0.85) 0%, rgba(8, 21, 38, 0.98) 100%), url(${savedBG})`;
             }
-            if (savedCardImg) {
-                document.getElementById('cardImage').src = savedCardImg;
-            }
+        const cardImage = document.getElementById("cardImage");
+
+if (savedCardImg && cardImage) {
+    cardImage.src = savedCardImg;
+}    }
         });
 
         // 1. Change Full Hero Background (Only with Passcode)
@@ -1121,7 +1123,7 @@ slides[currentSlide].classList.add("active");
 heroTitle.innerText = slideContent[currentSlide].title;
 heroDesc.innerText = slideContent[currentSlide].desc;
 
-}, 3000);
+    }, 3000);
 
 }
     </script>
