@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dead Body Freezer Box Near Me | 24/7 Dead Body Freezer Box Rental Hyderabad</title>
-  <meta name="google-site-verification" content="-zxlULr-zaWpc0vuUUu04OtynJl6ZTJobCPxM6_WSUk" />
+  
   <!-- Primary Meta Tags -->
   <meta name="description" content="Looking for Dead Body Freezer Box Near Me in Hyderabad? We provide 24/7 Dead Body Freezer Box Rental, Mortuary Cabinets, Hearse Vans & Ambulance Services across Hyderabad & Telangana with fast doorstep delivery. Call +91 9666002935.">
   <meta name="keywords" content="Dead Body Freezer Box Near Me, Dead Body Freezer Box Rental, Dead Body Freezer Box Rent, Dead Body Freezer Box Hyderabad, Dead Body Freezer Box Rent Near Me, Dead Body Freezer Box Price, Dead Body Freezer Box On Rent, Dead Body Freezer Box Rental Hyderabad, Mortuary Freezer Box Hyderabad, Body Freezer Box Price, Dead Body Ice Box, Hearse Van Hyderabad, Last Journey Vehicle Hyderabad, Ambulance Service Hyderabad, Funeral Services Hyderabad, Freezer Box Hyderabad, VIP Freezer Box Hyderabad">
@@ -433,63 +433,14 @@
     background-position: center;
     background-repeat: no-repeat;
     min-height: 100vh;
-      /* Mobile Background */
-@media (max-width: 768px) {
-    .hero {
-        background:
-            linear-gradient(rgba(4,10,18,0.75), rgba(4,10,18,0.75)),
-            url("background-mobile.jpg");
-
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        min-height: 70vh;
-    }
-}
 }
 
     .hero-grid {
-     @media screen and (max-width:768px){ 
       display: grid;
       grid-template-columns: 1.1fr 0.9fr;
       gap: 40px;
       align-items: center;
     }
-    /* ================= MOBILE RESPONSIVE ================= */
-
-@media screen and (max-width:768px){
-
-.hero-grid{
-    display:flex !important;
-    flex-direction:column !important;
-    gap:20px !important;
-    align-items:center !important;
-}
-
-.hero{
-    min-height:auto !important;
-    padding:90px 20px 40px !important;
-    background-position:center center !important;
-    background-size:cover !important;
-}
-
-.hero-content{
-    width:100% !important;
-    text-align:center !important;
-}
-
-.hero-slider{
-    width:100% !important;
-    margin-top:20px !important;
-}
-
-.hero-slider img{
-    width:100% !important;
-    height:auto !important;
-    object-fit:cover !important;
-}
-
-}
 
     .badge-emergency {
       display: inline-flex;
@@ -554,14 +505,16 @@
     }
 
     /* Hero Slider Container with Floating Animation */
- .slider-container{
-    position:relative;
-    width:100%;
-    height:380px;
-    max-height:380px;
-    border-radius:20px;
-    overflow:hidden;
-}
+    .slider-container {
+      position: relative;
+      width: 100%;
+      height: 380px;
+      border-radius: 20px;
+      overflow: hidden;
+      border: 1px solid var(--border-card);
+      box-shadow: 0 20px 40px rgba(0,0,0,0.8);
+      animation: floatAnimation 5s ease-in-out infinite;
+    }
 
     .slider-slide {
       position: absolute;
@@ -1089,39 +1042,9 @@
         display: block;
       }
 
-   .slider-container{
-    width:100% !important;
-    height:220px !important;
-    max-height:220px !important;
-    overflow:hidden !important;
-    border-radius:15px !important;
-}
-      .hero{
-    min-height:auto !important;
-    padding:80px 15px 20px !important;
-}
-
-.hero-grid{
-    display:flex !important;
-    flex-direction:column !important;
-    gap:15px !important;
-}
-
-.hero-content{
-    width:100% !important;
-    text-align:center !important;
-}
-
-.hero-slider{
-    width:100% !important;
-    margin-top:10px !important;
-}
-
-.hero-slider img{
-    width:100% !important;
-    height:220px !important;
-    object-fit:cover !important;
-}
+      .slider-container {
+        height: 300px;
+      }
     }
 
     @media (max-width: 576px) {
@@ -1206,7 +1129,7 @@
       </div>
 
       <!-- Hero Slider -->
-    <div class="animate-on-scroll delay-2 hero-slider">
+      <div class="animate-on-scroll delay-2">
         <div class="slider-container" id="heroSlider">
           <div class="slider-slide active">
             <img src="freezer-box.jpg" alt="Dead Body Freezer Box Rental Hyderabad" width="600" height="380" loading="eager">
@@ -1762,14 +1685,6 @@
         });
       });
     });
- </script>
-
-<div style="text-align:center; margin:20px 0;">
-    <a href="/dead-body-freezer-box-near-me.html"
-       style="color:#FFD700; font-size:18px; font-weight:bold; text-decoration:none;">
-       Dead Body Freezer Box Near Me
-    </a>
-</div>
-
+  </script>
 </body>
 </html>
