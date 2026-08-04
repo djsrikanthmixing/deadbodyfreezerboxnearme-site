@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dead Body Freezer Box Rental Hyderabad | 24/7 Service</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="24/7 Emergency Dead Body Freezer Box Rental in Hyderabad. Fast 30-minute doorstep delivery, mortuary cabinets, hearse vans, and ambulance services. Call +91 9666002935.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://www.deadbodyfreezerboxnearme.site/">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.deadbodyfreezerboxnearme.site/">
+  <meta property="og:title" content="Dead Body Freezer Box Rental Hyderabad | 24/7 Service">
+  <meta property="og:description" content="24/7 Emergency Dead Body Freezer Box Rental, Hearse Van & Ambulance Services in Hyderabad & Telangana.">
+  <meta property="og:image" content="https://www.deadbodyfreezerboxnearme.site/freezer-box.jpg">
+
+  <!-- Fonts & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Plus+Jakarta+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Structured Data JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Dead Body Freezer Box Near Me Hyderabad",
+    "image": "https://www.deadbodyfreezerboxnearme.site/freezer-box.jpg",
+    "url": "https://www.deadbodyfreezerboxnearme.site/",
+    "telephone": "+919666002935",
+    "priceRange": "₹₹",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Hyderabad",
+      "addressRegion": "Telangana",
+      "postalCode": "500001",
+      "addressCountry": "IN"
+    },
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      "opens": "00:00",
+      "closes": "23:59"
+    }
+  }
+  </script>
+
+  <style>
+    :root {
+      --bg-dark: #040A12;
+      --bg-navy: #081426;
+      --bg-card: rgba(12, 26, 46, 0.75);
+      --border-card: rgba(212, 160, 23, 0.25);
+      --gold-primary: #D4A017;
+      --gold-light: #F3C033;
+      --text-main: #F1F5F9;
+      --text-muted: #94A3B8;
+      --white: #FFFFFF;
+      --green-wa: #25D366;
+      --font-heading: 'Cinzel', serif;
+      --font-body: 'Plus Jakarta Sans', sans-serif;
+      --transition: all 0.3s ease-in-out;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; scroll-behavior: smooth; }
+    body { font-family: var(--font-body); background-color: var(--bg-dark); color: var(--text-main); line-height: 1.6; overflow-x: hidden; }
+    h1, h2, h3, h4 { font-family: var(--font-heading); color: var(--white); }
+    a { text-decoration: none; color: inherit; }
+    img { max-width: 100%; height: auto; display: block; }
+    
+    .container { width: 100%; max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+
+    /* Header Navigation */
+    header {
+      position: fixed; top: 0; left: 0; width: 100%; z-index: 1000;
+      background: rgba(4, 10, 18, 0.95); backdrop-filter: blur(10px);
+      border-bottom: 1px solid rgba(212, 160, 23, 0.2); padding: 12px 0;
+    }
+    .nav-container { display: flex; justify-content: space-between; align-items: center; }
+    .logo { display: flex; align-items: center; gap: 8px; font-family: var(--font-heading); font-size: 1rem; font-weight: 800; color: var(--gold-primary); }
+    .nav-links { display: flex; gap: 20px; list-style: none; }
+    .nav-links a { font-size: 0.9rem; font-weight: 600; }
+    .nav-links a:hover { color: var(--gold-primary); }
+    .header-actions { display: flex; align-items: center; gap: 10px; }
+    .mobile-menu-btn { display: none; background: none; border: none; color: var(--gold-primary); font-size: 1.5rem; cursor: pointer; }
+
+    /* Hero Section */
+    .hero { padding: 140px 0 80px; position: relative; min-height: 80vh; display: flex; align-items: center; }
+    .hero-grid { display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 40px; align-items: center; }
+    .hero-title { font-size: 2.5rem; margin-bottom: 15px; color: var(--gold-light); }
+    .hero-subtitle { font-size: 1.05rem; color: var(--text-muted); margin-bottom: 25px; }
+    .hero-cta { display: flex; gap: 15px; flex-wrap: wrap; margin-bottom: 25px; }
+
+    /* Buttons */
+    .btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; padding: 12px 24px; border-radius: 30px; font-weight: 700; cursor: pointer; transition: var(--transition); border: none; }
+    .btn-gold { background: linear-gradient(135deg, var(--gold-light), var(--gold-primary)); color: #000; }
+    .btn-whatsapp { background: var(--green-wa); color: #fff; }
+    .btn:hover { transform: translateY(-2px); }
+
+    /* Services & Cards Grid */
+    section { padding: 70px 0; }
+    .section-title { text-align: center; margin-bottom: 45px; }
+    .section-title h2 { font-size: 2rem; color: var(--gold-primary); }
+    .services-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
+    .glass-box { background: var(--bg-card); border: 1px solid var(--border-card); border-radius: 12px; padding: 25px; transition: var(--transition); }
+    .glass-box:hover { border-color: var(--gold-primary); transform: translateY(-5px); }
+
+    /* Mobile Responsive Rules (Desktop to Mobile Adjustments) */
+    @media (max-width: 992px) {
+      .hero-grid { grid-template-columns: 1fr; gap: 30px; }
+      .hero-title { font-size: 2rem; }
+      .mobile-menu-btn { display: block; }
+      .nav-links {
+        position: fixed; top: 60px; left: -100%; width: 100%; height: calc(100vh - 60px);
+        background: var(--bg-dark); flex-direction: column; align-items: center; justify-content: center;
+        gap: 25px; transition: var(--transition);
+      }
+      .nav-links.active { left: 0; }
+    }
+
+    @media (max-width: 576px) {
+      .hero { padding-top: 110px; }
+      .hero-title { font-size: 1.6rem; }
+      .btn { width: 100%; }
+      .logo span { font-size: 0.85rem; }
+    }
+
+    /* Fixed Bottom Action Bar for Mobile */
+    .mobile-sticky-bar {
+      display: none; position: fixed; bottom: 0; left: 0; width: 100%; z-index: 999;
+      background: #02060C; border-top: 1px solid var(--border-card); padding: 10px;
+    }
+    .mobile-sticky-bar div { display: flex; gap: 10px; }
+    .mobile-sticky-bar a { flex: 1; text-align: center; padding: 10px; border-radius: 8px; font-weight: bold; font-size: 0.9rem; }
+    
+    @media (max-width: 768px) {
+      .mobile-sticky-bar { display: block; }
+      body { padding-bottom: 60px; } /* Space for sticky bar */
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header Navigation -->
+  <header>
+    <div class="container nav-container">
+      <a href="#" class="logo">
+        <i class="fa-solid fa-snowflake"></i>
+        <span>FREEZER BOX NEAR ME</span>
+      </a>
+      
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">Why Choose Us</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <div class="header-actions">
+        <a href="tel:+919666002935" class="btn btn-gold" style="padding: 8px 16px; font-size: 0.8rem;">
+          <i class="fa-solid fa-phone"></i> Call Now
+        </a>
+        <button class="mobile-menu-btn" id="menuBtn" aria-label="Toggle Navigation">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="container hero-grid">
+      <div>
+        <h1 class="hero-title">24/7 Dead Body Freezer Box Rental Hyderabad</h1>
+        <p class="hero-subtitle">Fast 30-Minute Doorstep Delivery across Hyderabad & Telangana. Hygienic Stainless Steel Freezer Boxes, Hearse Vans, and Ambulance Support.</p>
+        
+        <div class="hero-cta">
+          <a href="tel:+919666002935" class="btn btn-gold">
+            <i class="fa-solid fa-phone"></i> Call +91 9666002935
+          </a>
+          <a href="https://wa.me/919666002935?text=I%20need%20urgent%20Dead%20Body%20Freezer%20Box%20service" class="btn btn-whatsapp" target="_blank">
+            <i class="fa-brands fa-whatsapp"></i> WhatsApp
+          </a>
+        </div>
+      </div>
+      
+      <div>
+        <div class="glass-box" style="text-align: center;">
+          <i class="fa-solid fa-truck-fast" style="font-size: 3rem; color: var(--gold-primary); margin-bottom: 15px;"></i>
+          <h3>Fast Doorstep Delivery</h3>
+          <p style="color: var(--text-muted); font-size: 0.9rem; margin-top: 10px;">Available 24 Hours a Day, 7 Days a Week in Kukatpally, Gachibowli, Secunderabad, LB Nagar, and all regions.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services">
+    <div class="container">
+      <div class="section-title">
+        <h2>Our Services</h2>
+      </div>
+
+      <div class="services-grid">
+        <div class="glass-box">
+          <i class="fa-solid fa-snowflake" style="font-size: 1.8rem; color: var(--gold-primary);"></i>
+          <h3 style="margin: 15px 0 10px;">Freezer Box Rental</h3>
+          <p style="color: var(--text-muted); font-size: 0.9rem;">Advanced refrigerated cabinets maintaining sub-zero temperatures to safely preserve loved ones.</p>
+        </div>
+
+        <div class="glass-box">
+          <i class="fa-solid fa-crown" style="font-size: 1.8rem; color: var(--gold-primary);"></i>
+          <h3 style="margin: 15px 0 10px;">VIP Glass Freezer Box</h3>
+          <p style="color: var(--text-muted); font-size: 0.9rem;">Hygienic stainless steel units with transparent glass for respectful final viewing.</p>
+        </div>
+
+        <div class="glass-box">
+          <i class="fa-solid fa-van-shuttle" style="font-size: 1.8rem; color: var(--gold-primary);"></i>
+          <h3 style="margin: 15px 0 10px;">Hearse Van & Transport</h3>
+          <p style="color: var(--text-muted); font-size: 0.9rem;">Respectful, AC vehicle services for local and outstation transportation across Telangana.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Mobile Sticky Footer Bar for High Conversion -->
+  <div class="mobile-sticky-bar">
+    <div>
+      <a href="tel:+919666002935" class="btn-gold"><i class="fa-solid fa-phone"></i> Direct Call</a>
+      <a href="https://wa.me/919666002935" class="btn-whatsapp"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+    </div>
+  </div>
+
+  <script>
+    // Mobile Navigation Toggle Logic
+    const menuBtn = document.getElementById('menuBtn');
+    const navLinks = document.getElementById('navLinks');
+
+    menuBtn.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+      const icon = menuBtn.querySelector('i');
+      icon.classList.toggle('fa-bars');
+      icon.classList.toggle('fa-xmark');
+    });
+  </script>
+
+</body>
+</html>
